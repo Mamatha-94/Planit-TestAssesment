@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: testautomation.TestRun
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.547 sec <<< FAILURE!
+Test case 1(Planit Assesment tests)  Time elapsed: 0.098 sec  <<< ERROR!
+io.cucumber.junit.UndefinedStepException: The step "user will launch Googlechrome browser" is undefined. You can implement it using the snippet(s) below:
+
+@Given("user will launch Googlechrome browser")
+public void user_will_launch_googlechrome_browser() {
+    // Write code here that turns the phrase above into concrete actions
+    throw new io.cucumber.java.PendingException();
+}
+
+

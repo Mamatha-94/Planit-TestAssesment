@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="124.395">
+<testcase classname="Planit Assesment tests" name="Test case 1" time="73.613">
+<system-out><![CDATA[Given user will launch Googlechrome browser.................................passed
+When user will open the application url "jupiterUrl"........................passed
+Then user will switch from the home page go to contact page.................passed
+And user click submit button................................................passed
+And Validate mandatory field error messages.................................passed
+And Populate mandatory fields...............................................passed
+Then Validate errors are gone...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Planit Assesment tests" name="Test case 2" time="31.448">
+<system-out><![CDATA[Given user will launch Googlechrome browser.................................passed
+When user will open the application url "jupiterUrl"........................passed
+Then user will switch from the home page go to contact page.................passed
+And Populate mandatory fields...............................................passed
+And user click submit button................................................passed
+Then Validate successful submission message.................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Planit Assesment tests" name="Test case 3" time="9.594">
+<system-out><![CDATA[Given user will launch Googlechrome browser.................................passed
+When user will open the application url "jupiterUrl"........................passed
+Then user will switch from the home page go to contact page.................passed
+And Populate mandatory fields with invalid data.............................passed
+Then Validate field level errors............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Planit Assesment tests" name="Test case 4" time="9.506">
+<system-out><![CDATA[Given user will launch Googlechrome browser.................................passed
+When user will open the application url "jupiterUrl"........................passed
+Then user will switch from the home page go to shop page....................passed
+And Click buy button 2 times on Funny Cow item..............................passed
+And Click buy button 1 time on Fluffy Bunny item............................passed
+And Click the cart menu.....................................................passed
+Then Verify the items are in the cart.......................................passed
+]]></system-out>
+</testcase>
+</testsuite>

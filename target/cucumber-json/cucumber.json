@@ -1,0 +1,457 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-11-24T05:25:59.015Z",
+        "line": 4,
+        "name": "Test case 1",
+        "description": "",
+        "id": "planit-assesment-tests;test-case-1",
+        "after": [
+          {
+            "result": {
+              "duration": 693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6035000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user will launch Googlechrome browser",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2952000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user will open the application url \"jupiterUrl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jupiterUrl\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user will switch from the home page go to contact page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.go_to_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10185000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user click submit button",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Validate mandatory field error messages",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.validate_mandatory_errors()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 441000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Populate mandatory fields",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.populate_mandatory_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52368000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Validate errors are gone",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.validate_errors_are_gone()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc1"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T05:27:12.646Z",
+        "line": 14,
+        "name": "Test case 2",
+        "description": "",
+        "id": "planit-assesment-tests;test-case-2",
+        "after": [
+          {
+            "result": {
+              "duration": 669000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5328000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user will launch Googlechrome browser",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2528000000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "user will open the application url \"jupiterUrl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jupiterUrl\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 129000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "user will switch from the home page go to contact page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.go_to_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 773000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Populate mandatory fields",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.populate_mandatory_fields()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10160000000,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "user click submit button",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.submit_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11854000000,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "Validate successful submission message",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.validate_successful_submission_message()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T05:27:44.101Z",
+        "line": 23,
+        "name": "Test case 3",
+        "description": "",
+        "id": "planit-assesment-tests;test-case-3",
+        "after": [
+          {
+            "result": {
+              "duration": 689000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5324000000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "user will launch Googlechrome browser",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2503000000,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user will open the application url \"jupiterUrl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jupiterUrl\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 124000000,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user will switch from the home page go to contact page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.go_to_contact_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 713000000,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "Populate mandatory fields with invalid data",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.populate_mandatory_fields_with_invalid_data()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 231000000,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "Validate field level errors",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.validate_errors()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc3"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-11-24T05:27:53.703Z",
+        "line": 31,
+        "name": "Test case 4",
+        "description": "",
+        "id": "planit-assesment-tests;test-case-4",
+        "after": [
+          {
+            "result": {
+              "duration": 799000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinition.StepDefinitions.closeBrowser()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5326000000,
+              "status": "passed"
+            },
+            "line": 32,
+            "name": "user will launch Googlechrome browser",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2457000000,
+              "status": "passed"
+            },
+            "line": 33,
+            "name": "user will open the application url \"jupiterUrl\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"jupiterUrl\"",
+                  "offset": 35
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.open_url(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 131000000,
+              "status": "passed"
+            },
+            "line": 34,
+            "name": "user will switch from the home page go to shop page",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.go_to_shop_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 441000000,
+              "status": "passed"
+            },
+            "line": 35,
+            "name": "Click buy button 2 times on Funny Cow item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.click_on_funny_cow_item(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 132000000,
+              "status": "passed"
+            },
+            "line": 36,
+            "name": "Click buy button 1 time on Fluffy Bunny item",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 17
+                }
+              ],
+              "location": "stepdefinition.StepDefinitions.click_on_fluffy_bunny_item(java.lang.Integer)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 37,
+            "name": "Click the cart menu",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.cart_menu()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 88000000,
+              "status": "passed"
+            },
+            "line": 38,
+            "name": "Verify the items are in the cart",
+            "match": {
+              "location": "stepdefinition.StepDefinitions.verify_the_items_are_in_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tc4"
+          }
+        ]
+      }
+    ],
+    "name": "Planit Assesment tests",
+    "description": "",
+    "id": "planit-assesment-tests",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/Tests.feature",
+    "tags": []
+  }
+]
